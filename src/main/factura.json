@@ -1,0 +1,80 @@
+{
+  "contact": [
+    {
+      "businessName": "########",
+      "address": [
+        {
+          "street": "########",
+          "city": "########",
+          "state": "########",
+          "code": 0
+        }
+      ],
+      "phone": "########",
+      "email": "########",
+      "website": "########"
+    }
+  ],
+  "client": [
+    {
+     "billTo": [
+       {
+         "clientName": "########",
+         "address": [
+           {
+             "street": "########",
+             "city": "########",
+             "state": "########",
+             "code": 0
+           }
+         ]
+       }
+     ],
+      "shipTo": [
+        {
+          "clientName": "########",
+          "address": [
+            {
+              "street": "########",
+              "city": "########",
+              "state": "########",
+              "code": 0
+            }
+          ]
+        }
+      ],
+      "invoiceDetails": [
+        {
+          "invoice" 12345,
+          "invoiceDate": "mm/dd/yyyy",
+          "terms": "Net 30",
+          "due": "mm/dd/yyyy"
+        }
+      ]
+    }
+  ],
+  "descriptionGoodsServices": [
+    {
+      "product/service": "product 1",
+      "description": "Describe your product or service",
+      "qty/hrs": 0,
+      "rate": 0,
+      "amount": 0
+    },
+    {
+      "product/service": "product 2",
+      "description": "Describe your product or service",
+      "qty/hrs": 0,
+      "rate": 0,
+      "amount": 0
+    }
+  ],
+  "totalAmount": [
+    {
+      "subtotal": 0,
+      "salesTax": 0,
+      "shipping": 0,
+      "total": 0
+    }
+  ]
+}
